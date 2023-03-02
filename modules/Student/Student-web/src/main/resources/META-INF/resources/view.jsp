@@ -27,7 +27,7 @@ function myFunction() {
   
         <portlet:renderURL var="updateStudentRenderURL">
             <portlet:param name="mvcPath" value="/update-student.jsp"/>
-            <portlet:param name="rollNo" value="${student.rollNo}"/>
+          	<portlet:param name="rollNo" value="${student.rollNo}"/>
             <portlet:param name="name" value="${student.name}"/>
             <portlet:param name="branch" value="${student.branch}"/>
             <portlet:param name="email" value="${student.email}"/>

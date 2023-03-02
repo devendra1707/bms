@@ -48,6 +48,7 @@ request.setAttribute("authorList", authorList);
 		 <portlet:renderURL var="updateAuthorRenderURL">
             <portlet:param name="mvcPath" value="/update-author.jsp"/>
             <portlet:param name="authorId" value="${author.authorId}"/>
+            
             <portlet:param name="id" value="${author.id}"/>
             <portlet:param name="name" value="${author.name}"/>
             <portlet:param name="authorBook" value="${author.authorBook}"/>

@@ -46,8 +46,6 @@ import org.osgi.service.component.annotations.Reference;
 )
 public class StudentPortlet extends MVCPortlet {
 	
-//	name, rollno, branch, email, mobile
-	
 private Log log = LogFactoryUtil.getLog(this.getClass().getName());
 	
 	@Reference
